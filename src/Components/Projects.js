@@ -1,47 +1,10 @@
 import React, { Component } from "react";
 
-class Resume extends Component {
+class Projects extends Component {
   render() {
-    if (this.props.data) {
-      var skillmessage = this.props.data.skillmessage;
-      var education = this.props.data.education.map(function (education) {
-        return (
-          <div key={education.school}>
-            <h3>{education.school}</h3>
-            <p className="info">
-              {education.degree} <span>&bull;</span>
-              <em className="date">{education.graduated}</em>
-            </p>
-            <p>{education.description}</p>
-          </div>
-        );
-      });
-      var work = this.props.data.work.map(function (work) {
-        return (
-          <div key={work.company}>
-            <h3>{work.company}</h3>
-            <p className="info">
-              {work.title}
-              <span>&bull;</span> <em className="date">{work.years}</em>
-            </p>
-            <p>{work.description}</p>
-          </div>
-        );
-      });
-      var skills = this.props.data.skills.map(function (skills) {
-        var className = "bar-expand " + skills.name.toLowerCase();
-        return (
-          <li key={skills.name}>
-            <span style={{ width: skills.level }} className={className}></span>
-            <em>{skills.name}</em>
-          </li>
-        );
-      });
-    }
-
     return (
-      <section id="resume">
-        <div className="row education">
+      <section id="projects">
+        <div className="row swe">
           <div className="three columns header-col">
             <h1>
               <span>SWE</span>
@@ -70,6 +33,7 @@ class Resume extends Component {
                   <a
                     href="https://vincent-ngo31.github.io/pathfinding-visualizer/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Try it out here!
                   </a>
@@ -96,6 +60,7 @@ class Resume extends Component {
                     <a
                       href="http://bearmaps3.herokuapp.com/map.html"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Try it out here!
                     </a>
@@ -162,6 +127,7 @@ class Resume extends Component {
                     <a
                       href="http://ai.berkeley.edu/project_overview.html"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       here.
                     </a>
@@ -190,6 +156,7 @@ class Resume extends Component {
                     <a
                       href="https://github.com/vincent-ngo31/instagram-music-bot"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github project link
                     </a>
@@ -200,7 +167,7 @@ class Resume extends Component {
           </div>
         </div>
 
-        <div className="row work">
+        <div className="row ds">
           <div className="three columns header-col">
             <h1>
               <span>Data Science</span>
@@ -244,6 +211,7 @@ class Resume extends Component {
                     <a
                       href="https://docs.google.com/presentation/d/1tCjBPJMYqAy2F37nUbacttyvFYhMeXRfWlMs4jdMQng/edit?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Presentation slide deck
                     </a>
@@ -270,6 +238,7 @@ class Resume extends Component {
                     <a
                       href="https://github.com/vincent-ngo31/twitter-sentiment-analysis"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github project link
                     </a>
@@ -309,6 +278,7 @@ class Resume extends Component {
                     <a
                       href="https://github.com/vincent-ngo31/nyc-taxi-rides"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github project link
                     </a>
@@ -319,7 +289,7 @@ class Resume extends Component {
           </div>
         </div>
 
-        <div className="row skill">
+        <div className="row neuro">
           <div className="three columns header-col">
             <h1>
               <span>Neuroscience</span>
@@ -348,6 +318,7 @@ class Resume extends Component {
                     <a
                       href="http://ivrylab.berkeley.edu/uploads/4/1/1/5/41152143/labruna_bs_2019.pdf"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Individual differences in TMS sensitivity influence the
                       efficacy of tDCS in facilitating sensorimotor adaptation
@@ -416,6 +387,7 @@ class Resume extends Component {
                     <a
                       href="https://www.duo.uio.no/handle/10852/72266"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Partitioning response inhibition by its latency, extent,
                       and electrophysiological correlates
@@ -497,6 +469,7 @@ class Resume extends Component {
                     <a
                       href="https://docs.google.com/presentation/d/1JsMMvveFk2nvykee_yft6C8sENkMIlR-jFH01mmu1z4/edit?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Intro presentation to faculty
                     </a>
@@ -511,4 +484,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default Projects;

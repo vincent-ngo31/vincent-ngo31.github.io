@@ -2,23 +2,6 @@ import React, { Component } from "react";
 
 class Header extends Component {
   render() {
-    if (this.props.data) {
-      var name = this.props.data.name;
-      var occupation = this.props.data.occupation;
-      var description = this.props.data.description;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var networks = this.props.data.social.map(function (network) {
-        return (
-          <li key={network.name}>
-            <a href={network.url} target="_blank">
-              <i className={network.className}></i>
-            </a>
-          </li>
-        );
-      });
-    }
-
     return (
       <header id="home">
         <nav id="nav-wrap">
@@ -41,7 +24,7 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#resume">
+              <a className="smoothscroll" href="#projects">
                 Projects
               </a>
             </li>
@@ -58,11 +41,37 @@ class Header extends Component {
                 <div class="slider-text3">Software Engineer</div>
               </div>
             </div>
-            {/* <h3>
-              I'm a <span>{occupation}</span> based in {city}, {state}.
-            </h3> */}
+
             <hr />
-            <ul className="social">{networks}</ul>
+            <ul className="social">
+              <li key="linkedin">
+                <a
+                  href="https://www.linkedin.com/in/vincent-ngo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li key="github">
+                <a
+                  href="https://github.com/vincent-ngo31"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-github"></i>
+                </a>
+              </li>
+              <li key="email">
+                <a
+                  href="mailto:vincent.ngo31@berkeley.edu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 
