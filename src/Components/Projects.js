@@ -461,7 +461,7 @@ class Projects extends Component {
                     non-selective stopping tasks. We hypothesized that reactive
                     inhibition is similar to preparatory inhibition in that the
                     magnitude of inhibition in task-irrelevant muscles is much
-                    larger for intra-segment musles compared to inter-segment
+                    larger for intra-segment muscles compared to inter-segment
                     muscles. I primarily developed the study design and
                     methodology before I left the lab in 2018.
                     <br></br>
