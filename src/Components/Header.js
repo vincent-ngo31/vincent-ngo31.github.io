@@ -36,9 +36,9 @@ class Header extends Component {
             <h1 className="responsive-headline">Vincent Ngo</h1>
             <div class="slider-wrapper">
               <div class="slider">
-                <div class="slider-text1">Neuroscience Researcher</div>
-                <div class="slider-text2">Data Scientist</div>
-                <div class="slider-text3">Software Engineer</div>
+                <div class="slider-text1">Neuroscience</div>
+                <div class="slider-text2">Data Science</div>
+                <div class="slider-text3">Software Engineering</div>
               </div>
             </div>
 
