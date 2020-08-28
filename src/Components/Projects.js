@@ -31,7 +31,7 @@ class Projects extends Component {
                     alt="Pathfinding Visualizer demo gif"
                   />
                   <a
-                    href="https://vincent-ngo31.github.io/pathfinding-visualizer/"
+                    href="https://pathfinding-visualizer-vn.github.io/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
