@@ -9,8 +9,8 @@ import Projects from "./Components/Projects";
 class App extends Component {
   constructor(props) {
     super(props);
-    ReactGA.initialize("UA-110570651-1");
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.initialize("UA-177015647-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   render() {
