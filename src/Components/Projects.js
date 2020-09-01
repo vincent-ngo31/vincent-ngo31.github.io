@@ -258,13 +258,16 @@ class Projects extends Component {
                     cleaning using SQL. Created training and validation datasets
                     for future use.
                     <br></br>
+                    <br></br>
                     Part 2: Continued exploration on training dataset.
                     Visualized and analyzed time, distance, and
                     spatial/locational features. Implemented clustering analysis
                     to pinpoint more nuanced features.
                     <br></br>
+                    <br></br>
                     Part 3: Conducted EDA on NYC taxi accident data. Focused on
                     features similar to those in Part 2.
+                    <br></br>
                     <br></br>
                     Part 4: Completed feature engineering and constructed
                     regression model for the purpose of predicting the duration
