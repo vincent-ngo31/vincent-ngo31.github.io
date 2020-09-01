@@ -76,7 +76,7 @@ header .banner-text hr {
   width: 60%;
   margin: 18px auto 24px auto;
   border-color: #2f2d2e;
-  border-color: rgba(255, 255, 255, 0.507);
+  border-color: rgba(255, 255, 255, 0.747);
 }
 
 .slider-wrapper {
@@ -105,12 +105,6 @@ header .banner-text hr {
 .slider-text1 {
   animation: slide 5s linear infinite;
 }
-
-/* @media (max-width: 768px) {
-  .slider-wrapper {
-    font-size: 3rem;
-  }
-} */
 
 @keyframes slide {
   0% {
