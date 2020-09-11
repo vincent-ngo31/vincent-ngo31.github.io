@@ -11,14 +11,32 @@ class About extends Component {
               src="images/profilepic.jpg"
               alt="Vincent Ngo Profile Pic"
             />
+            <div className="seals">
+              <img
+                className="berkeley-seal"
+                src="images/berk.png"
+                alt="berkeley-seal"
+              />
+              <img
+                className="gtech-seal"
+                src="images/gtech.png"
+                alt="georgia-tech-seal"
+              />
+            </div>
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>
-              "Hi! I'm Vincent, a San Diego native, a spicy food obsessive, and
-              an avid curator of sad music playlists. I recently graduated from
-              UC Berkeley with a double major in Data Science and Cognitive
-              Science, and I'm hoping to apply that knowledge to a Software
+              Hi! I'm Vincent, a San Diego native, a spicy food obsessive, and
+              an avid curator of sad music playlists.
+            </p>
+            <p>
+              I graduated from UC Berkeley with a double major in Data Science
+              and Cognitive Science in May 2020, and I was recently admitted to
+              Georgia Tech's Master of Computer Science program for Spring 2021.
+            </p>
+            <p>
+              I'm hoping to apply my skills and knowledge to a Software
               Engineering role in the near future. I'm constantly looking for
               ways to improve myself, and I'm not afraid to get my hands dirty
               to prove it. I perform best when I'm surrounded with ambitious,
@@ -26,7 +44,7 @@ class About extends Component {
               I am. When I'm not working on my next project, I'm probably
               enjoying an oolong milk tea or discovering underrated artists on
               Spotify. Please feel free to check out some of my past projects
-              below."
+              below.
             </p>
           </div>
         </div>

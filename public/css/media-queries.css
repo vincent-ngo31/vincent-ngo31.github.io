@@ -54,6 +54,10 @@
     margin-right: auto;
   }
 
+  #about .seals {
+    display: none;
+  }
+
   /* Projects Section
    ------------------------------------------------------------------- */
   #projects h1 {

@@ -43,6 +43,7 @@ class Header extends Component {
             </div>
 
             <hr />
+
             <ul className="social">
               <li key="linkedin">
                 <a

@@ -35,14 +35,8 @@ class Footer extends Component {
                 </a>
               </li>
             </ul>
-            <ul className="copyright">
-              <li> Made by Vincent Ngo </li>
-              <li>
-                Design by{" "}
-                <a title="Styleshout" href="http://www.styleshout.com/">
-                  Styleshout
-                </a>
-              </li>
+            <ul className="credits">
+              <li> Designed by Vincent Ngo </li>
             </ul>
           </div>
           <div id="go-top">
