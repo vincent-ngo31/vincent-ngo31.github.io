@@ -288,13 +288,13 @@ ul#nav li.current a {
   border-radius: 100%;
 }
 
-#about .seals {
+/* #about .seals {
   position: relative;
   width: 150px;
   height: 150px;
   border-radius: 100%;
   right: -18px;
-}
+} */
 
 #about .main-col {
   padding-right: 5%;
